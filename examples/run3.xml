@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites><testsuite name='s'>
+<testcase classname='shop.test_cart' name='test_add_item' time='0.01'></testcase>
+<testcase classname='shop.test_cart' name='test_checkout_timeout' time='0.01'></testcase>
+<testcase classname='shop.test_auth' name='test_login' time='0.01'><failure message='boom'/></testcase>
+<testcase classname='shop.test_search' name='test_index_rebuild' time='0.01'><failure message='boom'/></testcase>
+</testsuite></testsuites>

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flaky-test-detector"
+version = "0.1.0"
+description = "Detect flaky tests by comparing JUnit XML reports from multiple CI runs."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Yazan Aljabari" }]
+keywords = ["testing", "flaky-tests", "junit", "ci", "qa"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Testing",
+]
+
+[project.urls]
+Homepage = "https://github.com/yazanus94-dot/flaky-test-detector"
+Issues = "https://github.com/yazanus94-dot/flaky-test-detector/issues"
+
+[project.scripts]
+flaky-detect = "flaky_detector.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
