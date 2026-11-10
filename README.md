@@ -1,7 +1,7 @@
 # flaky-test-detector
 
 [![CI](https://github.com/yazanus94-dot/flaky-test-detector/actions/workflows/ci.yml/badge.svg)](https://github.com/yazanus94-dot/flaky-test-detector/actions/workflows/ci.yml)
-![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 Find unreliable tests by comparing the JUnit XML reports of several CI runs.

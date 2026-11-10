@@ -7,7 +7,7 @@ name = "flaky-test-detector"
 version = "0.1.0"
 description = "Detect flaky tests by comparing JUnit XML reports from multiple CI runs."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "Yazan Aljabari" }]
 keywords = ["testing", "flaky-tests", "junit", "ci", "qa"]
